@@ -14,6 +14,10 @@ app.get("/", function (req, res) {
     res.render("pages/index")  
 })
 
+app.get("/artikel/list", function (req, res) {
+    res.render("pages/artikel/list/index")
+})
+
 // buat servernya
 app.listen(8080, function() {
     console.log("Server is running bro")

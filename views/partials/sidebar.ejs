@@ -13,17 +13,21 @@
     <li class="nav-heading">Pages</li>
 
     <li class="nav-item">
-      <a class="nav-link collapsed" href="/cekongkir">
-        <i class="bi bi-box-seam"></i>
-        <span>Cek Ongkir</span>
+      <a class="nav-link" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#" aria-expanded="true">
+        <i class="bi bi-layout-text-window-reverse"></i><span>Artikel</span><i class="bi bi-chevron-down ms-auto"></i>
       </a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="/cekresi">
-        <i class="bi bi-truck"></i>
-        <span>Lacak Pengiriman</span>
-      </a>
+      <ul id="tables-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav" style="">
+        <li>
+          <a href="/artikel/list">
+            <i class="bi bi-circle"></i><span>List</span>
+          </a>
+        </li>
+        <li>
+          <a href="tables-data.html" >
+            <i class="bi bi-circle"></i><span>Kategori</span>
+          </a>
+        </li>
+      </ul>
     </li>
 
   </ul>
